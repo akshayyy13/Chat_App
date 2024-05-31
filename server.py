@@ -5,7 +5,7 @@ import threading #used to run the component thread
 
 HOST = '127.0.0.1'
 PORT = 1235 # You can use any port between 0 to 65535
-LISTENER_LIMIT=5
+LISTENER_LIMIT=500
 active_clients = []
 
 #function to listen for upcoming messages from a client
